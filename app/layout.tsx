@@ -13,7 +13,7 @@ import {
 import "./globals.css";
 import { Card } from "@/components/ui/card";
 import ROUTES from "@/lib/constants";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const noto = localFont({
   src: "./fonts/Noto-Regular.ttf",
@@ -79,7 +79,8 @@ export default function RootLayout({
       
        
      
-   
+    {/* ⭐️ مكوّن Speed Insights */}
+          <SpeedInsights />
       </body>
     </html>
     </ClerkProvider>
