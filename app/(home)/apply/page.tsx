@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { upsertUser } from "@/app/actions/upsertUser";
 
+export const dynamic = "force-dynamic";   // ⬅️ لا تُخزّن هذه الصفحة
 
 
 export default async function ApplyPage() {
